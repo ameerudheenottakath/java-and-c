@@ -8,19 +8,19 @@ int main(void)
         {
             for (int j = 1; j <= 2; j++)
             {
-                printf("*\n");
+                printf("X\n");
             }
         }
         else
         {
             printf("*\n");
         }
-        if (i==4)
+        if (i == 4)
         {
             break;
         }
-        
-        for (int j = 1; j <= i * 4; j++)  // Changed the loop variable to 'j'
+
+        for (int j = 1; j <= i * 4; j++) // Changed the loop variable to 'j'
         {
             printf("*");
         }
